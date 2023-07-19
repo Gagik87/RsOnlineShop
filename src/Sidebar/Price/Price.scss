@@ -1,0 +1,66 @@
+.price-title {
+  margin-top: 20px;
+}
+
+.ppp {
+  color: #24222a;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Marvel", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 45px;
+}
+
+.priceInput {
+  margin-top: 16px;
+  margin-left: 45px;
+}
+
+.priceInput input {
+  width: 22px;
+  height: 22px;
+  accent-color: #2b2353;
+  padding: 10px;
+  background-color: #2b2353;
+  border: 5px solid #2b2353;
+}
+
+@media (max-width: 768px) {
+  .ml {
+    display: none;
+  }
+  .price-title {
+    margin-top: 20px;
+  }
+
+  .ppp {
+    color: #24222a;
+    font-family: "Inter", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-family: "Marvel", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 45px;
+  }
+
+  .priceInput {
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+
+  .priceInput input {
+    width: 22px;
+    height: 22px;
+    accent-color: #2b2353;
+    padding: 10px;
+    background-color: #2b2353;
+    border: 5px solid #2b2353;
+  }
+}

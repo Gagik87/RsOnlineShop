@@ -1,0 +1,67 @@
+.ttt4 {
+  margin-left: 16px;
+  margin-top: 15px;
+}
+
+.sezon4 {
+  color: #24222a;
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Marvel", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 16px;
+}
+
+.styleA {
+  color: var(--neutral-500, #6c6c85);
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Marvel", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  margin-left: 11px;
+}
+
+@media (max-width: 768px) {
+  .StyleContainer {
+    display: none;
+  }
+  .styleA {
+    color: var(--neutral-500, #6c6c85);
+    font-family: "Inter", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-family: "Marvel", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  .ttt4 {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .sezon4 {
+    color: #24222a;
+    font-family: "Inter", sans-serif;
+    font-family: "Lato", sans-serif;
+    font-family: "Marvel", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 0px;
+  }
+}
