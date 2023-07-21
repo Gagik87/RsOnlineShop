@@ -221,6 +221,25 @@
     max-width: 300px;
     gap: 7px;
   }
+
+  .SortContainer {
+    display: none;
+  }
+  .SortContainer2 {
+    display: block;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  .openFilter {
+    display: block;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: end;
+    margin-top: -22px;
+    margin-right: 35px;
+    cursor: pointer;
+  }
   .allButton button {
     display: flex;
     height: 40px;
@@ -258,13 +277,14 @@
     display: block;
   }
   .rrr {
+    margin-left: 0px;
     margin-top: 0px;
-    width: 220px;
+    width: 380px;
     padding: 24px 24px 32px 24px;
     gap: 24px;
     background: #efeff2;
-    margin-top: -280px;
-    position: fixed;
+    margin-top: -330px;
+    position: absolute;
   }
   .ooo {
     display: flex;
